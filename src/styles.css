@@ -1,0 +1,126 @@
+input,
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+button,
+input:focus {
+    outline: none;
+}
+
+/* NOTES */
+
+.heading {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 48px;
+
+    text-shadow: 0px 2px 5px #ccc;
+    text-align: center;
+}
+
+.notes-src-btn-div {
+    display: block;
+}
+
+/* BUTTON */
+
+.btn {
+    margin: 10px 0px;
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #fff;
+    color: #000;
+
+    box-shadow: 0px 2px 5px #ccc;
+    cursor: pointer;
+
+    transition: transform .3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/* SEARCH */
+
+.search-input-div {
+    text-align: center;
+}
+
+.search-input {
+    margin: 0px;
+    padding: 15px;
+
+    border: 2px solid #000;
+    border-radius: 6px;
+
+    width: 80%;
+}
+
+/* NOTE CARD */
+
+.note-main-div {
+    display: block;
+}
+
+.note-div {
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    margin: 10px 30px;
+    padding: 10px;
+
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px #ccc;
+
+    width: 250px;
+}
+
+.note-para {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.note-btn-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-btn {
+    margin: 10px;
+    padding: 10px 25px;
+
+    border: none;
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    color: #fff;
+    background-color: rgb(65, 40, 206);
+
+    transition: .3s ease;
+}
+
+.del-btn {
+    border: 1px solid #fd182b;
+    background-color: #fd182b;
+}
+
+.del-btn:hover {
+    color: #fd182b;
+    background-color: #fff;
+}
+
+.upt-btn {
+    border: 1px solid #1cdf1c;
+    background-color: #1cdf1c;
+}
+
+.upt-btn:hover {
+    color: #1cdf1c;
+    background-color: #fff;
+}
